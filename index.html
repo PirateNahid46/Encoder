@@ -7,11 +7,17 @@
     <title>Document</title>
 </head>
 <body>
+    <input type="text" id="text">
+    <button onclick="hi()"> Encode</button>
     
 </body>
 <script src="./script.js"></script>
 <script>
-    var text = prompt("Enter Any text:");
-    document.write(encodeNUM(text));
+    function hi()
+    {
+        var text = document.getElementById("text").value;
+        document.write(encodeNUM(text));
+    }
+    
 </script>
 </html>
