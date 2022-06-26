@@ -5,6 +5,10 @@ function decode(text){
     return decodeNum(encodeNUM(text));
 }
 
+function decodeN(text){
+    return decode(decodeNum(text));
+}
+
 
 
 function encodeNUM(input){
