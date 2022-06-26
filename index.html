@@ -9,6 +9,8 @@
 <body>
     <input type="text" id="text">
     <button onclick="hi()"> Encode</button>
+    <input type="text" id="text1">
+    <button onclick="hi1()"> Descode</button>
     
 </body>
 <script src="./script.js"></script>
@@ -17,6 +19,11 @@
     {
         var text = document.getElementById("text").value;
         document.write(encodeNUM(text));
+    }
+    function hi1()
+    {
+        var text = document.getElementById("text1").value;
+        document.write(decodeN(text));
     }
     
 </script>
