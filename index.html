@@ -33,12 +33,14 @@
     function hi()
     {
         var text = document.getElementById("text").value;
-        document.getElementById("textAreaN").innerHTML = encodeNUM(text);
+        var final = encodeNUM(text);
+        document.getElementById("textAreaN").innerHTML = final;
     }
     function hi1()
     {
         var text = document.getElementById("text1").value;
-        document.getElementById("textArea").innerHTML = decodeN(text);
+        var final = decodeN(text);
+        document.getElementById("textArea").innerHTML = final;
     }
     
 </script>
