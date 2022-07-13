@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pirate's Encoder</title>
 </head>
 <body>
     <input type="text" id="text">
-    <button onclick="hi()"> Encode</button>
+    <button onclick="hi()"> Encode To Number</button>
+    <br>
     <input type="text" id="text1">
-    <button onclick="hi1()"> Descode</button>
+    <button onclick="hi1()">Encode/Decode</button>
+    <div id="textArea">
+
+    </div>
     
 </body>
 <script src="./script.js"></script>
@@ -18,12 +22,12 @@
     function hi()
     {
         var text = document.getElementById("text").value;
-        document.write(encodeNUM(text));
+        document.getElementById("textArea").innerHTML = encodeNUM(text);
     }
     function hi1()
     {
         var text = document.getElementById("text1").value;
-        document.write(decodeN(text));
+        document.getElementById("textArea").innerHTML = decodeN(text);
     }
     
 </script>
