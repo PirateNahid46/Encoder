@@ -11,3 +11,5 @@ To decode anything or encode anything:
 `decodeN("Anything")`
 
 !Numbers other than encoded will remain same. It only encodes texts.
+
+[Live Demo](https://piratenahid46.github.io/Encoder/)
