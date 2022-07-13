@@ -1,3 +1,6 @@
+`<scritp src="https://cdn.jsdelivr.net/gh/PirateNahid46/Encoder@master/script.js"></script>`
+
+
 To encode:   
 `encode("Any Text")`
 
